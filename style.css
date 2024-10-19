@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#weather-data {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
