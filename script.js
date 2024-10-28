@@ -23,6 +23,7 @@ check.addEventListener('click', () => {
                         <p>Weather: ${data.weather[0].description}</p>
                         <p>Humidity: ${data.main.humidity}%</p>
                     `;
+                    cityInput.value = ''
                 })
                 .catch(error => {
                     showInfo.innerHTML = `<p class="text-danger">City not found. Please try again.</p>`;
@@ -31,4 +32,5 @@ check.addEventListener('click', () => {
         } else {
             showInfo.innerHTML = `<p class="text-warning">Please enter a city name.</p>`;
         }
+
     });
