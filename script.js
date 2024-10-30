@@ -5,7 +5,7 @@ function checkWeather(){
     const cityInput = document.getElementById('city');
     // const showInfo = document.getElementById('show');
     const showInfo = document.querySelector('#show')
-    const apikey = `9a431fea030ca2cf85b47f43b85899e1`;
+    const apikey = `9a431fea030ca2cf85b47f43b85899e`;
     const city = cityInput.value.trim();
     const image = document.getElementById('image')
     
